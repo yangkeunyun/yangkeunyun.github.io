@@ -1,0 +1,115 @@
+baseURL: "https://pascalmichaillat.org/" 
+title: Pascal Michaillat
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+social:
+    twitter: pmichaillat
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: /papers/
+          weight: 1
+        - name: Courses
+          url: /courses/
+          weight: 2
+        - name: Design
+          url: /design/
+          weight: 3
+        - name: Tags
+          url: /tags/
+          weight: 5     
+        - name: Newsletter
+          url: https://pmichaillat.substack.com
+          weight: 4
+
+params:
+    description: "I am an Associate Professor of Economics at UC Santa Cruz. My research covers unemployment, economic slack, business cycles, and macroeconomic policy."
+    author: Pascal Michaillat
+    googleAnalyticsID: "G-97G4MZ4061"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Pascal Michaillat
+          subtitle: "I am an Associate Professor of Economics at the University of California, Santa Cruz. I try to understand why economic slack—especially unemployment—exists and why it fluctuates over the business cycle. I also study how macroeconomic policies—including monetary policy, government spending, unemployment insurance, and immigration—should respond to such cyclical fluctuations."
+          imageUrl: "/picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Pascal Michaillat
+          buttons:
+            - name: Papers
+              url: /papers/
+            - name: Courses
+              url: /courses/
+            - name: Design
+              url: /design/
+            - name: Newsletter
+              url: https://pmichaillat.substack.com
+    socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:pascal.michaillat@gmail.com
+        - name: Location
+          url: /location/
+        - name: Office Hours
+          url: /officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: YouTube
+          url: https://www.youtube.com/@pmichaillat
+        - name: GitHub
+          url: https://github.com/pmichaillat?tab=repositories
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: true
+        hiddenInSingle: true
+    label:
+      text: "Pascal Michaillat"
+      icon: /favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: xcode
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
