@@ -1,7 +1,7 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .main .profile {
