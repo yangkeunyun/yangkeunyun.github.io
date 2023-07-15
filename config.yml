@@ -57,7 +57,7 @@ params:
           enabled: true
           title: Yangkeun Yun
           subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management."
-          imageUrl: #"/picture.jpeg"
+          imageUrl: "/profile_picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: 
