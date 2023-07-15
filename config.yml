@@ -94,7 +94,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Yangkeun Yun"
-      icon: /favicon.ico
+      icon: 🐳 #/favicon.ico
       iconHeight: 18
 
 markup:
