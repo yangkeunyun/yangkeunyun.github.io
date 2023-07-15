@@ -1,11 +1,11 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .main .profile {
-    align-items: center;
+    align-items: left;
     min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
     text-align: center;
     font-size: var(--homesize);
