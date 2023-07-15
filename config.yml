@@ -72,19 +72,19 @@ params:
               url: 
     socialIcons:
         - name: CV
-          url: /cv.pdf
+          url: /CV-Yangkeun-Yun.pdf
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
-        - name: Location
-          url: /location/
-        - name: Office Hours
-          url: /officehours/
-        - name: Google Scholar
-          url: #https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: #https://www.youtube.com/@pmichaillat
+        #- name: Location
+        #  url: /location/
+        #- name: Office Hours
+        #  url: /officehours/
+        #- name: Google Scholar
+        #  url: #https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        #- name: YouTube
+        #  url: #https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: #https://github.com/pmichaillat?tab=repositories
+          url: https://github.com/yangkeunyun?tab=repositories
 
     assets:
         disableHLJS: true
@@ -94,7 +94,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Yangkeun Yun"
-      icon: 🐳 #/favicon.ico
+      icon: /whale.png
       iconHeight: 18
 
 markup:
