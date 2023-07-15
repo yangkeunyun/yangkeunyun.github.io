@@ -94,7 +94,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Yangkeun Yun"
-      icon: /whale.png
+      icon: /favicon-whale.ico
       iconHeight: 18
 
 markup:
