@@ -56,7 +56,7 @@ params:
     profileMode:
           enabled: true
           title: Yangkeun Yun
-          subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management."
+          subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management. My research focuses on the field of industrial organization, with an emphasis on topics related to strategic industry dyanamics, resource misallocation, and market-based regulation."
           imageUrl: "/profile_picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -64,12 +64,12 @@ params:
           buttons:
             - name: Papers
               url: /papers/
-            - name: Courses
-              url: /courses/
-            - name: Design
-              url: /design/
-            - name: Newsletter
-              url: 
+#            - name: Courses
+#              url: /courses/
+#            - name: Design
+#              url: /design/
+#            - name: Newsletter
+#              url: 
     socialIcons:
         - name: CV
           url: /CV-Yangkeun-Yun.pdf
