@@ -17,18 +17,18 @@ menu:
         - name: Papers
           url: /papers/
           weight: 1
-        - name: Courses
-          url: /courses/
-          weight: 2
-        - name: Design
-          url: /design/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 5     
-        - name: Newsletter
-          url: 
-          weight: 4
+#        - name: Courses
+#          url: /courses/
+#          weight: 2
+#        - name: Design
+#          url: /design/
+#          weight: 3
+#        - name: Tags
+#          url: /tags/
+#          weight: 5     
+#        - name: Newsletter
+#          url: 
+#          weight: 4
 
 params:
     description: "I am a PhD student in Economics at the UCLA Anderson School of Management."
