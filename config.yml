@@ -31,7 +31,7 @@ menu:
           weight: 4
 
 params:
-    description: #"I am an Associate Professor of Economics at UC Santa Cruz. My research covers unemployment, economic slack, business cycles, and macroeconomic policy."
+    description: "I am a PhD student in Economics at the UCLA Anderson School of Management."
     author: Yangkeun Yun
     googleAnalyticsID: 
     DateFormat: "January 2006"
@@ -69,12 +69,12 @@ params:
             - name: Design
               url: /design/
             - name: Newsletter
-              url: https://pmichaillat.substack.com
+              url: 
     socialIcons:
         - name: CV
           url: /cv.pdf
         - name: Email
-          url: #mailto:pascal.michaillat@gmail.com
+          url: mailto:yangkeun.yun.phd@anderson.ucla.edu
         - name: Location
           url: /location/
         - name: Office Hours
