@@ -64,8 +64,6 @@ params:
           buttons:
             - name: Papers
               url: /papers/
-#            - name: CV
-#              url: "/CV-Yangkeun-Yun.pdf"
 #            - name: Courses
 #              url: /courses/
 #            - name: Design
