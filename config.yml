@@ -17,6 +17,9 @@ menu:
         - name: Papers
           url: /papers/
           weight: 1
+        - name: CV
+          url: "/CV-Yangkeun-Yun.pdf"
+          weight: 2          
 #        - name: Courses
 #          url: /courses/
 #          weight: 2
@@ -66,7 +69,7 @@ params:
               url: /papers/
 #            - name: Job-market paper
 #              url: "/jmp.pdf"
-            - name: Curriculum vitae
+            - name: CV
               url: "/CV-Yangkeun-Yun.pdf"
 #            - name: Courses
 #              url: /courses/
