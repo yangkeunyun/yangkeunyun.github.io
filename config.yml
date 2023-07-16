@@ -64,6 +64,10 @@ params:
           buttons:
             - name: Papers
               url: /papers/
+#            - name: Job-market paper
+#              url: "/jmp.pdf"
+            - name: Curriculum vitae
+              url: "/CV-Yangkeun-Yun.pdf"
 #            - name: Courses
 #              url: /courses/
 #            - name: Design
@@ -71,8 +75,8 @@ params:
 #            - name: Newsletter
 #              url: 
     socialIcons:
-        - name: CV
-          url: /CV-Yangkeun-Yun.pdf
+#        - name: CV
+#          url: /CV-Yangkeun-Yun.pdf
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
         #- name: Location
