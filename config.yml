@@ -71,8 +71,8 @@ params:
 #            - name: Newsletter
 #              url: 
     socialIcons:
-#        - name: CV
-#          url: /CV-Yangkeun-Yun.pdf
+        - name: CV
+          url: /CV-Yangkeun-Yun.pdf
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
         #- name: Location
