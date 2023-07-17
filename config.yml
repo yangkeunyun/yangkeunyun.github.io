@@ -59,7 +59,7 @@ params:
     profileMode:
           enabled: true
           title: Yangkeun Yun
-          subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management. My research focuses on the field of industrial organization, with an emphasis on topics related to strategic industry dyanamics, resource misallocation, and market-based regulation."
+          subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management. My research focuses on the field of industrial organization. I study topics related to strategic industry dynamics, resource misallocation, and market-based regulation. I am particularly interested in environmental and energy markets, as well as financial and labor markets."
           imageUrl: "/profile_picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -89,7 +89,7 @@ params:
         #- name: YouTube
         #  url: #https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/yangkeunyun?tab=repositories
+          url: https://github.com/yangkeunyun
 
     assets:
         disableHLJS: true
