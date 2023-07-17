@@ -18,7 +18,7 @@ menu:
           url: /papers/
           weight: 1  
         - name: CV
-          url: /"CV-Yangkeun-Yun.pdf"
+          url: /cv-yangkeun-yun.pdf
           weight: 2
 #        - name: Courses
 #          url: /courses/
@@ -68,7 +68,7 @@ params:
             - name: Papers
               url: /papers/
             - name: CV
-              url: "/CV-Yangkeun-Yun.pdf"   
+              url: "/cv-yangkeun-yun.pdf"   
 #            - name: Courses
 #              url: /courses/
 #            - name: Design
@@ -77,7 +77,7 @@ params:
 #              url: 
     socialIcons:
 #        - name: CV
-#          url: /CV-Yangkeun-Yun.pdf
+#          url: /cv-yangkeun-yun.pdf
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
         #- name: Location
