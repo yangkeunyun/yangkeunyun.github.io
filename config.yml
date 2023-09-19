@@ -36,7 +36,7 @@ menu:
 params:
     description: "I am a PhD student in Economics at the UCLA Anderson School of Management."
     author: Yangkeun Yun
-    googleAnalyticsID: 
+    googleAnalyticsID: "G-D54BS9DFQ6"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
