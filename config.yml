@@ -59,7 +59,7 @@ params:
     profileMode:
           enabled: true
           title: Yangkeun Yun
-          subtitle: "I am a PhD student in Economics at the UCLA Anderson School of Management. My research fields are industrial organization and environmental economics. I investigate topics related to resource allocation in strategic and dynamic environments."
+          subtitle: "I am a PhD student in economics at UCLA Anderson. My research fields are industrial organization and environmental economics."
           imageUrl: "/profile_picture.jpeg"
           imageWidth: 160
           imageHeight: 160
