@@ -1,8 +1,8 @@
 ---
 title: "Navigating the commons"
 date: 2024-02-20 
-url: /1/
-author: "Yangkeun Yun"
+url: /navigating-the-commons/
+author: "in progress"
 description: "How to efficiently allocate common-pool resources over the long run? This paper develops a model of common-pool industry dynamics and applies it to the largest common-pool industry in history—American whaling."
 summary: "How to efficiently allocate common-pool resources over the long run? This paper develops a model of common-pool industry dynamics and applies it to the largest common-pool industry in history—American whaling."
 
