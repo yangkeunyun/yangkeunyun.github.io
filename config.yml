@@ -20,18 +20,6 @@ menu:
         - name: CV
           url: /cv-yangkeun-yun.pdf
           weight: 2
-#        - name: Courses
-#          url: /courses/
-#          weight: 2
-#        - name: Design
-#          url: /design/
-#          weight: 3
-#        - name: Tags
-#          url: /tags/
-#          weight: 5     
-#        - name: Newsletter
-#          url: 
-#          weight: 4
 
 params:
     description: "I am a PhD student in Economics at the UCLA Anderson School of Management."
@@ -69,25 +57,9 @@ params:
               url: /papers/
             - name: CV
               url: "/cv-yangkeun-yun.pdf"   
-#            - name: Courses
-#              url: /courses/
-#            - name: Design
-#              url: /design/
-#            - name: Newsletter
-#              url: 
     socialIcons:
-#        - name: CV
-#          url: /cv-yangkeun-yun.pdf
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
-        #- name: Location
-        #  url: /location/
-        #- name: Office Hours
-        #  url: /officehours/
-        #- name: Google Scholar
-        #  url: #https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        #- name: YouTube
-        #  url: #https://www.youtube.com/@pmichaillat
         - name: GitHub
           url: https://github.com/yangkeunyun
 
@@ -114,7 +86,3 @@ markup:
         ordered: false
         startLevel: 2
 
-# max number of characters:
-# * title: 70
-# * description: 120–155
-# * summary: 265
