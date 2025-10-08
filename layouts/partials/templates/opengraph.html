@@ -1,0 +1,13 @@
+{{- $title := cond (ne .Title "") .Title site.Title -}}
+{{- $url := cond (ne .Permalink "") .Permalink site.BaseURL -}}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ $url }}">
+{{- with .Params.images }}
+  {{- range . }}
+    <meta property="og:image" content="{{ . }}">
+  {{- end }}
+{{- end }}
+{{- with site.Params.description }}
+  <meta property="og:description" content="{{ . }}">
+{{- end }}

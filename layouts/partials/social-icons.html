@@ -1,0 +1,9 @@
+{{/* override: use params instead of removed .Site.Social */}}
+{{ $list := or .Site.Params.Social .Site.Params.socialIcons }}
+{{ if $list }}
+  <div class="social-icons">
+  {{ range $list }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+  {{ end }}
+  </div>
+{{ end }}
