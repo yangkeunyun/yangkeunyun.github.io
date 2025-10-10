@@ -47,8 +47,8 @@ params:
           title: Yangkeun Yun
           subtitle: "Hello and thank you for visiting my page. I am a PhD candidate in economics at UCLA Anderson. My research fields are industrial organization, environmental economics, and economic history. I will be on the job market during the 2025–26 academic year."
           imageUrl: "/yun_yangkeun.jpeg"
-          imageWidth: 250
-          imageHeight: 250
+          imageWidth: 230
+          imageHeight: 230
           imageTitle: 
           buttons:
             - name: Papers
