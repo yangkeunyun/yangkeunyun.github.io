@@ -52,7 +52,7 @@ params:
           imageTitle: 
           buttons:
             - name: Job-market paper
-              url: "/paper_navigating_the_commons.pdf"
+              url: /research/paper1/paper_navigating_the_commons.pdf
             - name: CV
               url: "/cv-yangkeun-yun.pdf"   
             - name: Research
