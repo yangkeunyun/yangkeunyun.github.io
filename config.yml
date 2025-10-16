@@ -51,10 +51,12 @@ params:
           imageHeight: 230
           imageTitle: 
           buttons:
-            - name: Research
-              url: /research/
+            - name: Job-market paper
+              url: "/paper_navigating_the_commons.pdf"
             - name: CV
               url: "/cv-yangkeun-yun.pdf"   
+            - name: Research
+              url: /research/
     socialIcons:
         - name: Email
           url: mailto:yangkeun.yun.phd@anderson.ucla.edu
