@@ -1,6 +1,7 @@
 ---
 title: "Small-Scale Rural Water Supply, Typhoid Eradication, and Human Capital Development"
 date: 2020-06-01
+weight: 4
 author: "Sok Chul Hong, Yangkeun Yun"
 url: /small_scale_water/
 description: "This paper studies the effects of small-scale water supply interventions on population health and human capital formation."

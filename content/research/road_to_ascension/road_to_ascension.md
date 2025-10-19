@@ -1,6 +1,7 @@
 ---
 title: "The Road to Ascension: Exams, Lineages and Civil Servants of the Joseon Dynasty"
 date: 2022-04-01
+weight: 3
 author: "Sok Chul Hong, Christopher Paik, Yangkeun Yun"
 url: /road_to_ascension/
 description: "This paper investigate how civil service exams historically screened talent for bureaucrats and family lineages influenced their final appointments."
