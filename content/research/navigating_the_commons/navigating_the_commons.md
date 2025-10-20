@@ -13,7 +13,7 @@ summary: "How do entry, exit, and investment shape common-pool externalities? Th
 
 ##### Download
 
-+ [Paper](/research/paper1/JMP_navigating_the_commons.pdf)
++ [Paper](/research/navigating_the_commons/JMP_navigating_the_commons.pdf)
 
 ##### Abstract
 

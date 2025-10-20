@@ -13,7 +13,7 @@ taxonomies:
 menu:
     main:
         - name: Job-market paper
-          url: /research/paper1/JMP_navigating_the_commons.pdf
+          url: /research/navigating_the_commons/JMP_navigating_the_commons.pdf
           weight: 1
         - name: CV
           url: /cv-yangkeun-yun.pdf
@@ -55,7 +55,7 @@ params:
           imageTitle: 
           buttons:
             - name: Job-market paper
-              url: /research/paper1/paper_navigating_the_commons.pdf
+              url: /research/navigating_the_commons/JMP_navigating_the_commons.pdf
             - name: CV
               url: "/cv-yangkeun-yun.pdf"   
             - name: Research
