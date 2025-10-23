@@ -14,6 +14,8 @@ menu:
     main:
         - name: Job-market paper
           url: /research/navigating_the_commons/JMP_navigating_the_commons.pdf
+          params:
+            href: "/research/navigating_the_commons/JMP_navigating_the_commons.pdf"
           weight: 1
         - name: CV
           url: /cv-yangkeun-yun.pdf
