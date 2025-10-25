@@ -1,8 +1,8 @@
 ---
 title: "Navigating the Commons"
-date: 2025-10-15
-author: "Yangkeun Yun"
+date: 2025-10-24
 weight: 1
+author: "Yangkeun Yun"
 url: /navigating_the_commons/
 description: "How do entry, exit, and investment shape common-pool externalities? This paper studies the 19th-century American whaling industry from the viewpoint of strategic firm dynamics."
 summary: "How do entry, exit, and investment shape common-pool externalities? This paper studies the 19th-century American whaling industry from the viewpoint of strategic firm dynamics."
