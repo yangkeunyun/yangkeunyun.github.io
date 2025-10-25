@@ -69,7 +69,6 @@ params:
           url: https://github.com/yangkeunyun
 
     assets:
-        favicon: "/favicon.ico"
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
