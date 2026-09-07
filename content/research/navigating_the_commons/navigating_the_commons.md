@@ -17,7 +17,7 @@ summary: "How do firm entry, exit, and investment drive the tragedy of the commo
 
 ##### Abstract
 
-Inefficiencies in the commons arise not only from resource use by existing participants but also from their capacity investment and the entry of new firms. This paper develops a model of firm dynamics with common-pool externalities and applies it to the American whaling industry (1804--1909), an unregulated global commons. During the industry's growth, about 45 percent of the market price of a whale was the external cost (shadow value), two-thirds of which came from entry, exit, and investment. Compared with the first-best allocation, firms built 3.6 times the vessel capacity, dissipating 24 percent of welfare. Better harvesting technology or longer-lasting demand lowers welfare under open access, while improving welfare under the first best once externalities are properly priced. 
+Inefficiencies in the commons arise not only from resource use by existing participants but also from their capacity investment and the entry of new firms. This paper develops a model of firm dynamics with common-pool externalities and estimates it using firm-level panel data from the American whaling industry (1804–1909), an unregulated global commons. During the industry's growth, harvesting one more whale imposed an external cost worth about 45 percent of the whale's market price, and two-thirds of that cost came from entry, exit, and investment. Because open access left it unpriced, firms built 3.6 times the first-best vessel capacity, dissipating 24 percent of first-best welfare. Faster technological progress and longer-lasting demand lower welfare under open access, while they raise it under the first best.
 
 ---
 
