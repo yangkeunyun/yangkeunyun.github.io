@@ -1,0 +1,210 @@
+/* ---------- Colors, sizes, spacing (change these to restyle the site) ---------- */
+:root {
+  --gap: 24px;
+  --main-width: 720px;
+  --header-height: 44px;
+  --radius: 8px;
+
+  --white: #ffffff;
+  --page-gray: #f5f5f5;     /* background of home and research pages, top bar */
+  --text: #1e1e1e;
+  --text-muted: #6c6c6c;    /* dates, summaries */
+  --text-faint: #a5a5a5;    /* "DOWNLOAD" / "ABSTRACT" labels, list bullets */
+  --rule: #d6d6d6;          /* horizontal lines, buttons */
+  --border: #eeeeee;        /* paper card border */
+  --accent: #2774ae;        /* UCLA blue: link underlines, card hover */
+  --accent-light: #8bb8e8;  /* button hover */
+}
+
+@media (max-width: 768px) {
+  :root { --gap: 14px; }
+}
+
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { overflow-y: scroll; -webkit-tap-highlight-color: transparent; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  word-break: break-word;
+  color: var(--text);
+  background: var(--white);
+}
+
+body.gray { background: var(--page-gray); }
+
+h1, h2, p { margin: 0; line-height: 1.2; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+.main {
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  min-height: calc(100vh - var(--header-height));
+  margin: auto;
+  padding: var(--gap);
+}
+
+/* ---------- Top bar (all pages except home) ---------- */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: var(--header-height);
+  background: var(--page-gray);
+}
+
+.nav .logo {
+  margin: auto var(--gap);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav .logo img {
+  display: inline;
+  vertical-align: middle;
+  transform: translateY(-10%);
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.nav ul {
+  display: flex;
+  margin: auto var(--gap);
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.nav li + li { margin-left: var(--gap); }
+
+/* ---------- Home page ---------- */
+.profile {
+  display: flex;
+  align-items: center;
+  /* Centered in a box shorter than the screen, so it sits slightly above the middle */
+  min-height: calc(100vh - 114px - var(--gap) * 2);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.profile img { border-radius: 50%; }
+
+.profile h1 {
+  padding: 12px 0;
+  font-size: 40px;
+}
+
+.profile p { line-height: 1.45; }
+
+.social-icons { padding: 12px 0; }
+.social-icons a { display: inline-block; }
+.social-icons a:hover { color: var(--accent); }
+.social-icons svg { width: 26px; height: 26px; }
+
+.buttons { display: flex; flex-wrap: wrap; }
+
+.button {
+  margin: 8px 16px 8px 0;
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  background: var(--rule);
+  transition: transform 0.1s;
+}
+
+.button:hover { background: var(--accent-light); }
+
+/* ---------- Research list ---------- */
+.paper-list { margin-top: 24px; }
+
+.paper-card {
+  display: block;
+  margin-bottom: var(--gap);
+  padding: var(--gap);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--white);
+  transition: transform 0.1s;
+}
+
+/* Only papers with their own page are links and get the hover outline */
+a.paper-card:hover { border-color: var(--accent); }
+
+.paper-card h2 {
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.paper-card .summary {
+  margin: 20px 10px;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.paper-card .meta { font-size: 15px; line-height: 1.6; }
+
+/* ---------- Paper page ---------- */
+.paper-header { margin: 24px auto 20px; }
+
+.paper-header h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.paper-header .meta {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.paper-body {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.paper-body hr {
+  height: 2px;
+  margin: 30px 0;
+  border: 0;
+  background: var(--rule);
+}
+
+/* "DOWNLOAD" and "ABSTRACT" labels */
+.paper-body h2 {
+  margin: 24px 0 16px;
+  color: var(--text-faint);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.paper-body p,
+.paper-body ul { margin: 0 0 20px; }
+
+.paper-body p { line-height: 1.45; }
+
+.paper-body ul {
+  padding-left: 20px;
+  margin-left: 26px;
+}
+
+.paper-body li { margin-top: 5px; }
+.paper-body li::marker { color: var(--text-faint); }
+
+.paper-body a { box-shadow: 0 2px 0 var(--accent); }
+
+/* ---------- Click feedback ---------- */
+.button:active,
+a.paper-card:active { transform: scale(0.96); }
+
+@media (prefers-reduced-motion) {
+  .button:active,
+  a.paper-card:active { transform: none; }
+}
