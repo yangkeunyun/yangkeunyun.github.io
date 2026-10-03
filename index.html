@@ -9,29 +9,101 @@
   <link rel="stylesheet" href="/style.css">
   <script src="/analytics.js"></script>
 </head>
-<body class="gray">
+<body>
   <main class="main">
-    <div class="profile">
-      <div>
-        <img src="/yun_yangkeun.jpeg" alt="Yangkeun Yun" width="230" height="230">
-        <h1>Yangkeun Yun</h1>
-        <p>Hello and thank you for visiting my page. I am a Visiting Assistant Professor at the University of Arizona. My research fields are industrial organization, environmental economics, and economic history.</p>
+    <header class="profile">
+      <img src="/yun_yangkeun.jpeg" alt="Yangkeun Yun" width="230" height="230">
+      <h1>Yangkeun Yun</h1>
+      <p>Hello and thank you for visiting my page. I am a Visiting Assistant Professor at the University of Arizona. My research fields are industrial organization, environmental economics, and economic history.</p>
 
-        <div class="social-icons">
-          <a href="mailto:yangkeun.yun.phd@anderson.ucla.edu" title="Email">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="Email">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,13 2,6"/>
-            </svg>
-          </a>
-        </div>
+      <nav class="icons">
+        <a href="/cv-yangkeun-yun.pdf" title="CV" aria-label="CV">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/>
+            <path d="M15 2v5h5"/>
+            <text x="12" y="17.2" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="-0.3" fill="currentColor" stroke="none">CV</text>
+          </svg>
+        </a>
+        <a href="mailto:yangkeunyun@arizona.edu" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </a>
+      </nav>
+    </header>
 
-        <div class="buttons">
-          <a class="button" href="/cv-yangkeun-yun.pdf">CV</a>
-          <a class="button" href="/research/">Research</a>
-        </div>
-      </div>
+    <div id="research">
+      <!--
+        Template for a paper (copy into a section, then delete the lines you don't need):
+
+        <article class="paper">
+          <h3>Paper Title</h3>
+          <p class="coauthors">with First Coauthor and Second Coauthor</p>
+          <p class="status">Revise and resubmit, <i>Journal Name</i></p>
+          <p class="links">
+            <button class="abstract-toggle" aria-controls="abstract-slug" aria-expanded="false">abstract</button>
+            <a href="/research/slug/paper.pdf">draft</a>
+            <a href="/research/slug/appendix.pdf">online appendix</a>
+          </p>
+          <div class="abstract" id="abstract-slug" hidden>
+            <p>Abstract text.</p>
+          </div>
+        </article>
+      -->
+
+      <section>
+        <h2>Working Papers</h2>
+
+        <article class="paper">
+          <h3>Navigating the Commons</h3>
+          <p class="links">
+            <button class="abstract-toggle" aria-controls="abstract-commons" aria-expanded="false">abstract</button>
+            <a href="/research/navigating_the_commons/JMP_navigating_the_commons.pdf">draft</a>
+            <a href="/research/navigating_the_commons/appendix.pdf">online appendix</a>
+          </p>
+          <div class="abstract" id="abstract-commons" hidden>
+            <p>Inefficiencies in the commons arise not only from resource use by existing participants but also from their capacity investment and the entry of new firms. This paper develops a model of firm dynamics with common-pool externalities and estimates it using firm-level panel data from the American whaling industry (1804-1909). I find that ignoring firms’ entry, exit, and investment understates the shadow value of whales, so a policy built on it forgoes much of the achievable welfare gain. In the long run, faster technological progress and longer-lasting demand lower welfare under open access, as excessive entry and investment exacerbate externalities.</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <h3>Water Investment and Pricing</h3>
+          <p class="coauthors">with Will Rafey</p>
+          <p class="links">
+            <button class="abstract-toggle" aria-controls="abstract-water" aria-expanded="false">abstract</button>
+          </p>
+          <div class="abstract" id="abstract-water" hidden>
+            <p>This paper examines overinvestment in groundwater pumping in California, where water utilities share aquifers but rarely coordinate to preserve them. Using a panel dataset combining utilities’ production, pricing, and extraction data with measures of aquifer levels, we estimate an empirical model of investment by regulated utilities.</p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <h2>Works in Progress</h2>
+
+        <article class="paper">
+          <h3>Exporting and Innovation in a Dynamic Oligopoly</h3>
+          <p class="coauthors">with Han Yang</p>
+        </article>
+
+        <article class="paper">
+          <h3>Access and Stigma: Collateral Constraints, the Discount Window, and Private Correspondents in the Early Fed</h3>
+          <p class="coauthors">with Haelim Anderson</p>
+        </article>
+      </section>
     </div>
   </main>
+
+  <script>
+    // "Abstract" buttons show or hide the abstract below them
+    document.querySelectorAll(".abstract-toggle").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var abstract = document.getElementById(button.getAttribute("aria-controls"));
+        abstract.hidden = !abstract.hidden;
+        button.setAttribute("aria-expanded", String(!abstract.hidden));
+      });
+    });
+  </script>
 </body>
 </html>
