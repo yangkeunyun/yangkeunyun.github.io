@@ -84,7 +84,7 @@ img { display: block; max-width: 100%; }
 
 .icons a { display: block; }
 .icons a:hover { color: var(--accent); }
-.icons svg { display: block; width: 36px; height: 36px; }
+.icons svg { display: block; width: 34px; height: 34px; }
 
 /* ---------- Research ---------- */
 
