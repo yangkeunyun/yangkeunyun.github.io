@@ -42,15 +42,30 @@ img { display: block; max-width: 100%; }
 }
 
 /* ---------- Photo, name, introduction, icons ---------- */
+
+/* Photo on the left, name / introduction / icons on the right */
 .profile {
+  display: flex;
+  align-items: center;
+  gap: 32px;
   padding-top: 72px;
   font-size: 16px;
   line-height: 1.45;
 }
 
 .profile img {
+  flex: none;            /* keep the photo its full size */
   border: 1px solid var(--border);
   border-radius: 16px;   /* rounded square; 50% makes a circle */
+}
+
+/* Phones: not enough width for side by side, so the photo goes on top */
+@media (max-width: 640px) {
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
 }
 
 .profile h1 {
@@ -62,13 +77,13 @@ img { display: block; max-width: 100%; }
 
 .icons {
   display: flex;
-  gap: 14px;
+  gap: 18px;
   padding: 12px 0;
 }
 
 .icons a { display: block; }
 .icons a:hover { color: var(--accent); }
-.icons svg { display: block; width: 28px; height: 28px; }
+.icons svg { display: block; width: 32px; height: 32px; }
 
 /* ---------- Research ---------- */
 
@@ -77,10 +92,9 @@ img { display: block; max-width: 100%; }
   margin: 44px 0 20px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--rule);
-  color: var(--text-muted);
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
