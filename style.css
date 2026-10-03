@@ -48,7 +48,10 @@ img { display: block; max-width: 100%; }
   line-height: 1.45;
 }
 
-.profile img { border-radius: 20px; }   /* rounded square; 50% makes a circle */
+.profile img {
+  border: 1px solid var(--border);
+  border-radius: 16px;   /* rounded square; 50% makes a circle */
+}
 
 .profile h1 {
   padding: 12px 0;
