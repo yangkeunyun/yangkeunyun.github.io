@@ -48,7 +48,7 @@ img { display: block; max-width: 100%; }
   line-height: 1.45;
 }
 
-.profile img { border-radius: 50%; }
+.profile img { border-radius: 20px; }   /* rounded square; 50% makes a circle */
 
 .profile h1 {
   padding: 12px 0;
